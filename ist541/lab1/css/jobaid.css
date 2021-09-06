@@ -1,0 +1,104 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color:#D1D1D1;   /* background color */
+	color: #000000;          /* text color for the entire page */
+	font-size: 15px;
+	font-family: open sans, sans-serif;
+}
+
+h1 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#013250;
+	background-color:#ffffff40;
+	padding-top: 10px;
+	padding-bottom: 10px;/* exploring new text color */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+
+}
+h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#013250;/* exploring new text color */
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:900px;
+	margin:0 auto;    /* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	font-weight:bold;
+	font-size:18px;
+	background-color:#8BB8E0;
+		
+		border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+.stepDescription {
+	width:70%;
+	padding:15px;
+}
+
+.stepImage {
+	width:40%;	
+	padding:10px;
+	text-align: center;
+	border-radius: 10px;
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray; 
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px
+
+}
+
+.stepWideImage {
+	width:60%;	
+	padding:10px;
+	text-align: center;
+	border-radius: 10px;
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray; 
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px
+	}
+
+.stepOptionalTitle {
+	padding:10px;
+	text-align:left;
+	font-size:18px;
+	background-color:#ECB159;
+			border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}

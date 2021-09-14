@@ -132,3 +132,19 @@ div.callout {
 	border-bottom: 10px solid #444;
 }
 
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+	}
+
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
+.idea {
+		background-color: #F4D17C;
+		padding:10px;
+		border-radius:20px;
+	}

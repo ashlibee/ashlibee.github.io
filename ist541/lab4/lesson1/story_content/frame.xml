@@ -8,8 +8,8 @@
     <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
     <layout name="pnxanbnsnfns00001100101" font="Open Sans" controllayout="pnxanbnsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
     <layout name="pxabsnfns00001100101" font="Open Sans" controllayout="pxabsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
-    <layout name="npxnabsnfns00001100101" font="Open Sans" controllayout="npxnabsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
     <layout name="pnxanbsnfns00001100101" font="Open Sans" controllayout="pnxanbsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="npxnabsnfns00001100101" font="Open Sans" controllayout="npxnabsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -247,16 +247,16 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabsnfns00001100101">
+    <control_layout name="pnxanbsnfns00001100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -270,16 +270,16 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pnxanbsnfns00001100101">
+    <control_layout name="npxnabsnfns00001100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1297,24 +1297,23 @@
             <slidelink slideid="_player.6LGRcksmD7f.6kDkBjDxdqC" displaytext="Apply the list format change" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.6HlOVm7BZjn" displaytext="Alt text overview" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5noGoCJwKN0" displaytext="Alt text example and applying the change" expand="false" type="slide" />
-            <slidelink slideid="_player.6LGRcksmD7f.5jEHNTOkxwJ" displaytext="Practice adding alt text" expand="false" type="slide" />
+            <slidelink slideid="_player.6LGRcksmD7f.5jEHNTOkxwJ" displaytext="Practie adding alt text" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5ZOUj6s5j0g" displaytext="Type new alt text" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.6buobjafjpq" displaytext="Apply the new alt text" expand="false" type="slide" />
-            <slidelink slideid="_player.6LGRcksmD7f.6nqsx2uY2kr" displaytext="Knowledge Check: Alt Text" expand="false" type="slide" />
+            <slidelink slideid="_player.6LGRcksmD7f.6nqsx2uY2kr" displaytext="Review Question: Alt Text" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5sy7pb2eaqV" displaytext="Adding a table caption" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.6aAM5nmkOw0" displaytext="Type the new table caption" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5sUo37QkVR9" displaytext="Apply the table caption change" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.69ihBbdV6Cc" displaytext="Choosing table headers" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5wW94nni7En" displaytext="Table headers dropdown" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5tV8RdWph3t" displaytext="Apply the table header change" expand="false" type="slide" />
-            <slidelink slideid="_player.6LGRcksmD7f.6DtSY2P5m77" displaytext="Knowledge Check: Which of the following are required to make a table accessible?" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5f99kd1v4WG" displaytext="Example of color contrast issue correction" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.63i2bqQjqij" displaytext="Example of applying color contrast change" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5wvZjP6qbdP" displaytext="You try: choose new color" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.6OmaZ3S1mgm" displaytext="Apply the new color" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.5tpxFyC1gZk" displaytext="Close Accessibility Checker" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.6hey6o7XeHD" displaytext="Save the page" expand="false" type="slide" />
-            <slidelink slideid="_player.6LGRcksmD7f.6pl9vDdQMKY" displaytext="Knowledge Check: What can you do to correct color contrast issues in Canvas?" expand="false" type="slide" />
+            <slidelink slideid="_player.6LGRcksmD7f.6Qwv0NAAe1D" displaytext="Which of the following issues are identified by the Accessibility Checker? " expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.68YFQLTF9fn" displaytext="Manually Checking" expand="true" type="slide">
@@ -1332,21 +1331,18 @@
             <slidelink slideid="_player.68YFQLTF9fn.6eAm6hKRG5z" displaytext="Manually removing manual list symbols (1)" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.64XewO7DiSI" displaytext="Manually removing manual list symbols (2)" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6FrlplCJ1fW" displaytext="Unordered list corrected" expand="false" type="slide" />
-            <slidelink slideid="_player.68YFQLTF9fn.5Yzb3t0igLt" displaytext="Knowledge Check: Pick the list" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6BMw042YSfJ" displaytext="Manually checking for proper image alt text" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6HDSivUhnXk" displaytext="Accessibility Checker shows no issues" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5iZ61U9dYa6" displaytext="Click on image" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5ijUz8WNh8A" displaytext="Select Image Options" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5qArOyVzxOA" displaytext="Check Alt Text box" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6QgsMUSBRST" displaytext="Select Done" expand="false" type="slide" />
-            <slidelink slideid="_player.68YFQLTF9fn.6GPHoecXRHk" displaytext="Knowledge Check: Pick alt text" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6aYmyyw77JZ" displaytext="Example of Color &amp;amp; Meaning Issue" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6RvTnHrxxG5" displaytext="Fixing Color &amp;amp; Meaning issue (1)" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6JY3kJ56f7t" displaytext="Fixing Color &amp;amp; Meaning issue (2)" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6m1SLdUPReQ" displaytext="You try: Fix Color &amp;amp; Meaning" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6HCq9M4Ondn" displaytext="Type Thursday Group" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5m5OGwTCmXp" displaytext="Save the page" expand="false" type="slide" />
-            <slidelink slideid="_player.68YFQLTF9fn.5sTuGiXb5YU" displaytext="Knowledge Check: Color is fine to use, as long as it meets the following requirements:" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6YHPUv7JNmy" displaytext="Headings" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6OQXH3BMwLO" displaytext="Click to check Heading 2" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5iNcVzSoVk1" displaytext="Heading 2 check" expand="false" type="slide" />
@@ -1361,7 +1357,6 @@
             <slidelink slideid="_player.68YFQLTF9fn.6ElEEStzKz3" displaytext="Click on heading 3" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6IO1gMaJ6JN" displaytext="Heading 3 applied" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6JCPKzHZ79Y" displaytext="Save the page" expand="false" type="slide" />
-            <slidelink slideid="_player.68YFQLTF9fn.5yGpWGVzIcE" displaytext="Knowledge Check: If the accessibility checker doesn’t find any issues, the page is fully accessible." expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5uHnyeGGnSv" displaytext="Review Quiz" expand="true" type="slide">
@@ -1377,6 +1372,7 @@
             <slidelink slideid="_player.5uHnyeGGnSv.5ieFmAWgRxk" displaytext="You can always tell the difference between a properly formatted heading and a manually formatted heading just by looking at it." expand="false" type="slide" />
             <slidelink slideid="_player.5uHnyeGGnSv.6XLXih386Ic" displaytext="Pick the list" expand="false" type="slide" />
             <slidelink slideid="_player.5uHnyeGGnSv.6CAnH2vJkez" displaytext="The following is an accessible use of color." expand="false" type="slide" />
+            <slidelink slideid="_player.5uHnyeGGnSv.68VHLiAGsrs" displaytext="Changing the color contrast within the Accessibility Checker is the only way to correct color contrast issues." expand="false" type="slide" />
             <slidelink slideid="_player.5uHnyeGGnSv.6bWHg57Fsdc" displaytext="Select the following accessibility issues that can be checked by the Accessibility Checker." expand="false" type="slide" />
           </links>
         </slidelink>

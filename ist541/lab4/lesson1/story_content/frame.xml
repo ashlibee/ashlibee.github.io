@@ -17,7 +17,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="final project-4 41921" />
+              <option name="title_text" value="Canvas Accessibility Training (Final Project, IST 526, Spring 2021)" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1214,60 +1214,60 @@
   <string_tables>
     <string_table name="npxnabnsnfns00001100101">
       <string id="acc_active">active</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="acc_definition">definition</string>
+      <string id="acc_finish">finish</string>
+      <string id="acc_next">next</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="acc_previous">previous</string>
+      <string id="acc_replay">replay</string>
+      <string id="acc_resources">resources</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="acc_volume">volume</string>
+      <string id="action">Action</string>
+      <string id="bio">Bio</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
-      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions">Captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="definition">Definition</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="disabled_orientation">Please rotate your device</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
-      <string id="acc_finish">finish</string>
-      <string id="definition">Definition</string>
-      <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
-      <string id="terms">Terms</string>
-      <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
-      <string id="shortcuthelp">List keyboard shortcuts</string>
-      <string id="shortcut">Shortcut</string>
-      <string id="togglezoom">Switch zoom modes</string>
-      <string id="outline">Menu</string>
-      <string id="disabled_orientation">Please rotate your device</string>
-      <string id="next">NEXT</string>
-      <string id="acc_next">next</string>
-      <string id="transcript_chk">Notes</string>
-      <string id="transcript">Notes</string>
-      <string id="bio">Bio</string>
+      <string id="mobile_start">Start Course</string>
       <string id="more_info">More info</string>
-      <string id="closed_captions">Captions</string>
-      <string id="acc_pause">pause</string>
-      <string id="acc_play">play</string>
-      <string id="send_an_email">Send an email</string>
+      <string id="next">NEXT</string>
+      <string id="outline">Menu</string>
       <string id="prev">PREV</string>
-      <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
-      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
-      <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
-      <string id="acc_search_input">search</string>
-      <string id="search_toggle">Search</string>
-      <string id="sidebar_toggle">Sidebar Toggle</string>
-      <string id="desktop_start">Start Course</string>
-      <string id="mobile_start">Start Course</string>
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="acc_skipnavigation">Back to top</string>
+      <string id="search_toggle">Search</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="submitall">SUBMIT ALL</string>
-      <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
-      <string id="acc_submit">submit</string>
-      <string id="acc_volume">volume</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="terms">Terms</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="transcript">Notes</string>
+      <string id="transcript_chk">Notes</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1282,13 +1282,13 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6kXYY92jZUO" displaytext="Intro" expand="false" type="slide">
+        <slidelink slideid="_player.6kXYY92jZUO" displaytext="Introduction" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6kXYY92jZUO.5dqByfeMbH9" displaytext="Accessibility in Canvas" expand="false" type="slide" />
             <slidelink slideid="_player.6kXYY92jZUO.6R6yXktl9tX" displaytext="Objectives" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6LGRcksmD7f" displaytext="Try Scene 1" expand="false" type="slide">
+        <slidelink slideid="_player.6LGRcksmD7f" displaytext="Accessibility Checker" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6LGRcksmD7f.5ndRevVJNv1" displaytext="Accessibility Checker: Guided Correcting" expand="false" type="slide" />
             <slidelink slideid="_player.6LGRcksmD7f.6PbNjctZG6t" displaytext="Edit the page" expand="false" type="slide" />
@@ -1316,7 +1316,7 @@
             <slidelink slideid="_player.6LGRcksmD7f.6Qwv0NAAe1D" displaytext="Which of the following issues are identified by the Accessibility Checker? " expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.68YFQLTF9fn" displaytext="Try Scene 2" expand="false" type="slide">
+        <slidelink slideid="_player.68YFQLTF9fn" displaytext="Manually Checking" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.68YFQLTF9fn.6hwbtRys6Jq" displaytext="Manual Checking" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5hCdgv5wcQN" displaytext="Edit the page" expand="false" type="slide" />
@@ -1351,15 +1351,15 @@
             <slidelink slideid="_player.68YFQLTF9fn.6C2dQxB0Wnv" displaytext="Similar page" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5YjdvvrNQV5" displaytext="Heading 2 issue" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5riEEusPovE" displaytext="Click Heading 2" expand="false" type="slide" />
-            <slidelink slideid="_player.68YFQLTF9fn.6ElEEStzKz3" displaytext="Click on heading 3" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6PG9SQYWKij" displaytext="Click to fix heading 2" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.5usciKU8iQ6" displaytext="Select Heading 2" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.68cF09yAusG" displaytext="Heading 2 resolved" expand="false" type="slide" />
+            <slidelink slideid="_player.68YFQLTF9fn.6ElEEStzKz3" displaytext="Click on heading 3" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6IO1gMaJ6JN" displaytext="Heading 3 applied" expand="false" type="slide" />
             <slidelink slideid="_player.68YFQLTF9fn.6JCPKzHZ79Y" displaytext="Save the page" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5uHnyeGGnSv" displaytext="Quiz 2" expand="false" type="slide">
+        <slidelink slideid="_player.5uHnyeGGnSv" displaytext="Review Quiz" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5uHnyeGGnSv.67If6Pf84I4" displaytext="Review Quiz" expand="false" type="slide" />
             <slidelink slideid="_player.5uHnyeGGnSv.6Ope6g3x2H4" displaytext="Make the numbered list accessible." expand="false" type="slide" />
@@ -1376,10 +1376,10 @@
             <slidelink slideid="_player.5uHnyeGGnSv.6bWHg57Fsdc" displaytext="Select the following accessibility issues that can be checked by the Accessibility Checker." expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5dj44ZbmfjT" displaytext="References" expand="false" type="slide">
+        <slidelink slideid="_player.5dj44ZbmfjT" displaytext="Training Complete" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5dj44ZbmfjT.6dsU5EraorC" displaytext="Attributions" expand="false" type="slide" />
             <slidelink slideid="_player.5dj44ZbmfjT.5fJQAivn6GG" displaytext="Training Complete!" expand="false" type="slide" />
+            <slidelink slideid="_player.5dj44ZbmfjT.6dsU5EraorC" displaytext="Attributions" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>

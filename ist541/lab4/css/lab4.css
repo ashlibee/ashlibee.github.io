@@ -28,28 +28,3 @@ a:hover {
 		border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
-
-
-a.external:link 
-{
-padding: 8px;
-margin: 2px;
-	font-size: 100%;
-	background-color: #CAA16E;
-	color: #000000;
-		border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-		border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-
-}
-
-a.external:hover {
-	font-size:100%;
-	background-color: #ffffff; 
-	color: #121F8E;
-			border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-		border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}

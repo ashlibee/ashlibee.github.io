@@ -28,3 +28,5 @@ a:hover {
 		border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+
+iframe>body { background-color: #E6E6E6; }

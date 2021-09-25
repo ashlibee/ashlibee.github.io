@@ -11,7 +11,7 @@ a {
 margin: 3px;
 	font-size: 125%;
 	background-color: #588DA3;
-	color: #000000;
+	color: #ffffff;
 		border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 		border-top-left-radius: 5px;
@@ -20,9 +20,9 @@ margin: 3px;
 
 
 a:hover {
-	font-size:200%;
+	font-size:135%;
 	background-color: #ffffff; 
-	color: #4576D8;
+	color: #588DA3;
 			border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 		border-top-left-radius: 5px;

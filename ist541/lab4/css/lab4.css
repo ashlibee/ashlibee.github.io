@@ -29,4 +29,6 @@ a:hover {
 	border-top-right-radius: 5px;
 }
 
-iframe>body { background-color: #E6E6E6; }
+body {
+    background-color : transparent;
+}

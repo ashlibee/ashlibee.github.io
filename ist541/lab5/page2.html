@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>question2</title>
+<link href="css/koala.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+ 
+$(function(){
+	
+	$("#option1").click( function(){
+         $("#feedback").html("<p style='color:red'> Belle doesn't really play frisbee. </p>");
+                  $("#belle_ball").css("display","none");
+});
+$("#option3").click( function(){
+                 $("#feedback").html("<p style='color:green'> Correct! Belle's favorite activity is ball.</p>");
+                 $("#belle_ball").css("display","inline");
+});
+    $("#option2, #option4").click( function(){
+             $("#feedback").html("<p style='color:red'> Belle enjoys this, but it's not her absolute favorite. </p>");
+    $("#belle_ball").css("display","none");
+});
+
+ 
+});
+
+</script>
+<script>
+ 
+$(function(){
+	
+	$("#option1a").click( function(){
+         $("#feedback1").html("<p style='color:red'> Maple does like frisbee, but she chews it up! </p>");
+                  $("#maple_nap").css("display","none");
+});
+$("#option4a").click( function(){
+                 $("#feedback1").html("<p style='color:green'> Correct! Maple's favorite activity is taking a nap.</p>");
+                 $("#maple_nap").css("display","inline");
+});
+    $("#option2a, #option3a").click( function(){
+             $("#feedback1").html("<p style='color:red'> Maple does enjoy this, but it's not her favorite.</p>");
+    $("#maple_nap").css("display","none");
+});
+
+ 
+});
+
+</script>
+	</head>
+
+<body2>
+	<div id="wrapper">
+<h1>What are Belle and Maple's Favorite Activities?</h1>
+		<p style="text-align: left;">This is a quick review quiz. Please select the best answer option. If you need to review, please select the Previous button at the bottom of this page. </p><hr>
+</div><div id="wrapper3"> <h2 id="hint">1. What is Belle's favorite activity?</h2>
+<h3 id="option1" class="choices"> Frisbee </h3>
+<h3 id="option2" class="choices"> Walks </h3>
+<h3 id="option3" class="choices"> Ball </h3>
+<h3 id="option4" class="choices"> Naps </h3>
+ 
+<div id="feedback"></div>
+<img id="belle_ball" src="img/belle_ball.jpg" />
+</div>
+
+	<div id="wrapper4">	
+<h2 id="hint1">2. What is Maple's favorite activity?</h2>
+ 
+<h3 id="option1a" class="choices"> Frisbee </h3>
+<h3 id="option2a" class="choices"> Walks </h3>
+<h3 id="option3a" class="choices"> Ball </h3>
+<h3 id="option4a" class="choices"> Naps </h3>
+ 
+<div id="feedback1"></div>
+<img id="maple_nap" src="img/maple_nap.jpg" />
+
+		<br><hr>
+	<br><a href="index.html">Previous</a><br><br></div>
+
+</body2>
+</html>

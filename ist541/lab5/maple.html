@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 5: JQuery</title>
+	<link href="css/koala.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$( function(){
+$("#maple1").mouseenter( function(){
+$("#maple_nap1").css("display","inline");
+	$("#maple1").css("display","none");
+	$("#answer2").html("<h2>Maple loves to nap!</h2>");
+	$("#maple_nap1").mouseleave( function(){
+$("#maple1").css("display","inline");
+$("#maple_nap1").css("display","none");
+$("#answer2").html("");
+		});
+
+});
+});
+</script>
+	</head>
+
+<body>
+	
+	
+ 
+<h1>What are Belle and Maple's Favorite Activities?</h1>
+<h2 id="hint">Hint: Hover over their images below to find out!</h2>
+ <div id="wrapper2">
+<img id="maple1"   src="img/maple.jpg" alt="Maple"   />
+ 
+<img id="maple_nap1" src="img/maple_nap.jpg" alt="Maple sleeping with head on a pillow" />
+ 
+           <div id="answer2"></div>
+	 
+	 <!-- This is a placeholder to display here the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+
+	<br><br><br><a href="maple.html">Next: Quiz</a>
+	</body>
+</html>

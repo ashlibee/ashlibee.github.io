@@ -10,7 +10,7 @@ $( function() {
 
       if ($(this).attr("id") == "Oak Leaf") {
          $("#feedback").css("color","green");
-         $("#feedback").html("Yes, oak trees produce acorns! ("Acorn," 2021)");
+         $("#feedback").html("Yes, oak trees produce acorns! ('Acorn,' 2021)");
       }
 
       if ($(this).attr("id") == "Birch Leaf") {

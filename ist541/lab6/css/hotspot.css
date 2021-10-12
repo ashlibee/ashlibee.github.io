@@ -5,7 +5,31 @@ body {
       background: black;   /* background color */
       color: black;        /* text color */
       font-size: 12px;
-      font-family:Verdana, Geneva, sans-serif;
+      font-family:open sans, sans-serif;
+}
+
+
+h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#000000;/* exploring new text color */
+background-color:#EBB27A;
+	padding-top: 10px;
+	padding-bottom: 10px;/* exploring new text color */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+h3 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#000000;/* exploring new text color */
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #wrapper {

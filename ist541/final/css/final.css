@@ -32,29 +32,6 @@ a:hover {
 	border-top-right-radius: 5px;
 }
 
-
-a1 {
-	padding: 10px;
-margin: 2px;
-	font-size: 90%;
-	background-color: #ffffff;
-	color: #144E68;
-	
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-		border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-a1:hover {
-	font-size: 90%;
-	background-color: #456E80; 
-	color: #ffffff;
-			border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-		border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-
 h1 { 
 	text-align:center;     /* centers h1 and h2 content */
 	font-size: 200%; margin-left: 0px; 
@@ -196,4 +173,72 @@ div.callout {
 		border-radius:20px;
 	}
 
-/* this is for page 2 */
+/* page 2 */
+.choices {
+cursor: pointer;
+}#wrapper1 {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+#wrapper2 {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+#wrapper3 {
+width: 900px;
+margin: 0 auto;
+text-align: left
+}
+
+#wrapper4 {
+width: 900px;
+margin: 0 auto;
+text-align: left
+}
+
+#wrapper5 {
+width: 900px;
+margin: 0 auto;
+text-align: right
+}
+
+ #belle {
+border: grey 1px solid;
+	 border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+		border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+ 
+ #belle_ball {
+display: none;
+border: grey 1px solid;
+	 border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+		border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+ #maple1 {
+border: grey 1px solid;
+	 border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+		border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+ #maple_nap {
+display: none;
+border: grey 1px solid;
+	 border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+		border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+/* begin page 3 */

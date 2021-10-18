@@ -9,15 +9,14 @@
 	$(function(){
 	
 	$("#option1").click( function(){
-         $("#feedback").html("<p style='color:red'> Belle doesn't really play frisbee. </p>");
+         $("#feedback").html("<p style='color:red'> This activity doesn't measure the verb to discuss as stated in the learning goal. </p>");
                   $("#belle_ball").css("display","none");
 });
-$("#option3").click( function(){
-                 $("#feedback").html("<p style='color:green'> Correct! Belle's favorite activity is ball.</p>");
-                 $("#belle_ball").css("display","inline");
+$("#option2").click( function(){
+                 $("#feedback").html("<p style='color:green'> Correct! This assignment measures the verb to discuss as stated in the learning goal.</p>");
 });
-    $("#option2, #option4").click( function(){
-             $("#feedback").html("<p style='color:red'> Belle enjoys this, but it's not her absolute favorite. </p>");
+    $("#option3").click( function(){
+             $("#feedback").html("<p style='color:red'> This is a great real-world activity, but it doesn't measure the ability to discuss differences among trees. </p>");
     $("#belle_ball").css("display","none");
 });
 
@@ -30,15 +29,15 @@ $("#option3").click( function(){
 $(function(){
 	
 	$("#option1a").click( function(){
-         $("#feedback1").html("<p style='color:red'> Maple does like frisbee, but she chews it up! </p>");
+         $("#feedback1").html("<p style='color:red'> This activity measures students' ability to discuss historical figures instead of events. </p>");
                   $("#maple_nap").css("display","none");
 });
-$("#option4a").click( function(){
-                 $("#feedback1").html("<p style='color:green'> Correct! Maple's favorite activity is taking a nap.</p>");
-                 $("#maple_nap").css("display","inline");
+$("#option3a").click( function(){
+                 $("#feedback1").html("<p style='color:green'> Correct! This activity asks students to identify details about major historical events. </p>");
+
 });
-    $("#option2a, #option3a").click( function(){
-             $("#feedback1").html("<p style='color:red'> Maple does enjoy this, but it's not her favorite.</p>");
+    $("#option2a").click( function(){
+             $("#feedback1").html("<p style='color:red'> This assignment asks students to recall information about major historical figures, but not necessarily historical events.</p>");
     $("#maple_nap").css("display","none");
 });
 
@@ -59,25 +58,27 @@ $("#option4a").click( function(){
 	<a href="page7.html"> Modality </a>
 	<a href="page8.html"> Personalization </a>
 	<br><br><hr><br>
-	<p>page 2</p>
-	<p style="text-align: left;">This is a review quiz. Please select the best answer option. If you need to review, please select the Previous button at the bottom of this page. Once you've answered these questions, the activity is complete.</p><hr>
-<div id="wrapper3"> <h2 id="hint">1. What is Belle's favorite activity?</h2>
-<h3 id="option1" class="choices"> Frisbee </h3>
-<h3 id="option2" class="choices"> Walks </h3>
-<h3 id="option3" class="choices"> Ball </h3>
-<h3 id="option4" class="choices"> Naps </h3>
+	<div id="wrapper3"><p style="text-align: left;">The Coherence principle is applied in the course design. We want to begin by setting measurable learning goals and after that, building activities that help students demonstrate mastery of thos goals. </p><hr>
+ <h2 id="hint">Learning Goal: Discuss the key differences among trees.
+</h2>
+<p id="option1" class="choices"> Matching quiz on tree types to their leaves
+ </p>
+<p id="option2" class="choices"> Discussion on differences among trees </p>
+<p id="option3" class="choices"> Assignment to plant a tree
+</p>
  
 <div id="feedback"></div>
 <img id="belle_ball" src="img/belle_ball.jpg" />
 </div>
 
 	<div id="wrapper4">	
-<h2 id="hint1">2. What is Maple's favorite activity?</h2>
+<h2 id="hint1">Learning Goal:
+Identify details about major historical events.
+</h2>
  
-<h3 id="option1a" class="choices"> Frisbee </h3>
-<h3 id="option2a" class="choices"> Walks </h3>
-<h3 id="option3a" class="choices"> Ball </h3>
-<h3 id="option4a" class="choices"> Naps </h3>
+<p id="option1a" class="choices"> Discussion on historical figures </p>
+<p id="option2a" class="choices"> Assignment to write a journal entry from a historical figure’s perspective </p>
+<p id="option3a" class="choices"> Matching quiz about the key details of various events in history </p>
  
 <div id="feedback1"></div>
 		<img id="maple_nap" src="img/maple_nap.jpg" /></div>

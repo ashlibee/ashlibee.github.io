@@ -2,50 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Page 4</title>
+<title>Page 3</title>
 		<link href="css/final.css" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-	$(function(){
 	
-	$("#option1").click( function(){
-         $("#feedback").html("<p style='color:red'> Belle doesn't really play frisbee. </p>");
-                  $("#belle_ball").css("display","none");
-});
-$("#option3").click( function(){
-                 $("#feedback").html("<p style='color:green'> Correct! Belle's favorite activity is ball.</p>");
-                 $("#belle_ball").css("display","inline");
-});
-    $("#option2, #option4").click( function(){
-             $("#feedback").html("<p style='color:red'> Belle enjoys this, but it's not her absolute favorite. </p>");
-    $("#belle_ball").css("display","none");
-});
-
- 
-});
-
-</script>
-<script>
- 
-$(function(){
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
-	$("#option1a").click( function(){
-         $("#feedback1").html("<p style='color:red'> Maple does like frisbee, but she chews it up! </p>");
-                  $("#maple_nap").css("display","none");
-});
-$("#option4a").click( function(){
-                 $("#feedback1").html("<p style='color:green'> Correct! Maple's favorite activity is taking a nap.</p>");
-                 $("#maple_nap").css("display","inline");
-});
-    $("#option2a, #option3a").click( function(){
-             $("#feedback1").html("<p style='color:red'> Maple does enjoy this, but it's not her favorite.</p>");
-    $("#maple_nap").css("display","none");
-});
-
- 
-});
-
-</script>
+	<script src="js/hotspot.js"></script>
 </head>
 
 <body>
@@ -58,26 +24,36 @@ $("#option4a").click( function(){
 	<a href="page6.html"> Redundancy </a>
 	<a href="page7.html"> Modality </a>
 	<a href="page8.html"> Personalization </a>
-	<br></be><br><hr><br>
-	<p>page 4</p>
-	<p style="text-align: left;">This is a review quiz. Please select the best answer option. If you need to review, please select the Previous button at the bottom of this page. Once you've answered these questions, the activity is complete.</p><hr>
-<div id="wrapper3"> <h2 id="hint">1. What is Belle's favorite activity?</h2>
-<h3 id="option1" class="choices"> Frisbee </h3>
-<h3 id="option2" class="choices"> Walks </h3>
-<h3 id="option3" class="choices"> Ball </h3>
-<h3 id="option4" class="choices"> Naps </h3>
- 
-<div id="feedback"></div>
-<img id="belle_ball" src="img/belle_ball.jpg" />
-</div>
+	<br><br><hr><br>
+	<p>page4</p>
+	<div id="wrapper">       
+ <h2>Which type of tree grows acorns?</h2>
+ <h3> Click on that tree's leaf! </h3><hr>
+		
+	  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel"> 
+           Feedback
+        </h4>
+      </div>
+      <div class="modal-body">
+ <div id="feedback"></div>
+	    </div><!-- /.modal-body -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-	<div id="wrapper4">	
-<h2 id="hint1">2. What is Maple's favorite activity?</h2>
- 
-<h3 id="option1a" class="choices"> Frisbee </h3>
-<h3 id="option2a" class="choices"> Walks </h3>
-<h3 id="option3a" class="choices"> Ball </h3>
-<h3 id="option4a" class="choices"> Naps </h3>
- 
-<div id="feedback1"></div>
-		<img id="maple_nap" src="img/maple_nap.jpg" /></div>
+ <img src="img/4customize.png" alt="Fall itemsp" width="844" height="608" usemap="#leaves"/>
+ <map name="leaves">
+
+   <area id="Space Under Item 2" shape="rect" coords="14,46,220,97" href="#" alt="Space Under Item 2" title="Space Under Item 2">
+ </map>
+<br /><br />
+  <div style="font-size:10px">
+</div><br /> 
+</div><!--closing wrapper-->
+</body>
+</html>

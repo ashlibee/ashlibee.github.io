@@ -54,18 +54,19 @@ a1:hover {
 	border-top-right-radius: 5px;
 }
 
-a2 {
-	padding: 10px;
-margin: 2px;
-	font-size: 90%;
-	background-color: #ffffff;
+a.external {
+	padding: 0px;
+	font-size: 100%;
+	background-color:  transparent;
+	border: transparent;
 	color: #456E80;
 }
 
-a2:hover {
-	font-size: 90%;
-	background-color: #456E80; 
-	color: #ffffff;
+a.external:hover {
+	padding: 0px; font-size: 100%;
+	background-color:  transparent; 
+	border: transparent;
+	color: #456E80; 
 }
 
 h1 { 

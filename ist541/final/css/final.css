@@ -87,7 +87,26 @@ h1 {
 
 h2 { 
 	text-align:left;     /* centers h1 and h2 content */
-	margin-left: 0px; 
+	font-size: 150%; margin-left: 0px; 
+	margin-right: 0px;
+	color:#000000;
+	background-color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 0px;/* exploring new text color */
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-family: serif;
+	
+
+
+}
+
+h3 { 
+	text-align:left;     /* centers h1 and h2 content */
+	font-size: 120%; margin-left: 0px; 
 	margin-right: 0px;
 	color:#000000;
 	background-color: #ffffff;
@@ -245,19 +264,6 @@ margin: 0 auto;
 text-align: right
 }
 
- #text {
-border: grey 1px solid;
 
-}
- 
- #image {
-display: none;
-border: grey 1px solid;
-}
-
- #Step2 {
-border: grey 1px solid;
-
-}
 
 /* begin page 3 */

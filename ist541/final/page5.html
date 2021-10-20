@@ -7,12 +7,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
 $( function(){
-$("#5text").mouseenter( function(){
+$("#text").mouseenter( function(){
 $("#headers").css("display","inline");
-	$("#5text").css("display","none");
+	$("#text").css("display","none");
 	$("#answer").html("<p style='color:green'>✅ <i>Notice how the headers create visual sections.</i></p>");
 	$("#headers").mouseleave( function(){
-$("#5text").css("display","inline");
+$("#text").css("display","inline");
 $("#headers").css("display","none");
 $("#answer").html("");
 		});
@@ -37,7 +37,7 @@ $("#answer").html("");
    	    <img src="../final/img/page5.png" height="100%" width="100%" alt="Bitmoji of Ashli taking a bite out of an apple" /></div><h2>The Segmenting Principle 📁</h2><p><i>Chunk the material into small “bites."</i></p><p>(Clark & Mayer, 2016)</p><p>Think about binders with tabbed dividers. What content could go in one tab? Think of headings as these binder tabs.</p>
 		<hr><h2>Application ⚙️</h2>
 <p>Adding section headers is a simple way to break up text and chunk sections. The screenshot below does not include headers. Hover over or tap it to see the difference when section headers are added.</p>
-<img id="5text" src="img/5text.jpg" width="539" height="1006" alt="sample page with no section headers"   />
+<img id="text" src="img/5text.jpg" width="539" height="1006" alt="sample page with no section headers"   />
     <div id="answer"></div>
 <img id="headers" src="img/5headers.jpg" width="519" height="1171" alt="sample page with section headers" />
  

@@ -277,7 +277,16 @@ text-align: right
 }
  
 #image {
-	 display: none; }
+	 display: none;
+border: grey 1px solid;}
+
+
+#text { 
+border: grey 1px solid;}
 
 #headers {
-	 display: none; }
+	 display: none; 
+border: grey 1px solid;}
+
+#stepping {
+border: grey 1px solid;}

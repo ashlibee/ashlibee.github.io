@@ -246,7 +246,9 @@ div.callout {
 .choices {
 cursor: pointer;
 	
-}#wrapper {
+}
+
+#wrapper {
 width: 900px;
 margin: 0 auto;
 text-align: left;

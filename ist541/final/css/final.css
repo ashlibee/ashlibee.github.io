@@ -275,7 +275,9 @@ width: 900px;
 margin: 0 auto;
 text-align: right
 }
+ 
+#image {
+	 display: none; }
 
-
-
-/* begin page 3 */
+#headers {
+	 display: none; }

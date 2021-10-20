@@ -4,16 +4,14 @@
 <meta charset="utf-8">
 <title>Page 3</title>
 	<link href="css/final.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
 $( function(){
-$("#text").mouseenter( function(){
+$("#text").click( function(){
 $("#image").css("display","inline");
 	$("#text").css("display","none");
 	$("#answer").html("<p style='color:green'>✅ <i>Notice how the image breaks up the text and helps give a visual representation of the pyramid.</i></p>");
-	$("#image").mouseleave( function(){
+	$("#image").click( function(){
 $("#text").css("display","inline");
 $("#image").css("display","none");
 $("#answer").html("");
@@ -39,7 +37,7 @@ $("#answer").html("");
    	    <img src="../final/img/page3.png" height="100%" width="100%" alt="Bitmoji of Ashli giving the thumbs-up with the word Interested next to a checkbox" /></div>
 		<h2>The Multimedia Principle 🖼️</h2>
 		<p><i>Use a combination of words and graphics to connect concepts and add visual interest.</i></p><p>(Clark & Mayer, 2016)</p><p>It can help students to visualize the content in various ways.</p><hr><h2>Application ⚙️</h2><p id="hint">The image below is a screenshot of a page that is purely text without a visual representation of the information. </p>
-		<p>Hover over or tap the image to see the difference when a graphic is added.</p>
+		<p>Click or tap the image to see the difference when a graphic is added.</p>
 <img id="text"   src="img/blooms_text.png" width="824" height="473" alt="sample of Canvas page with text"   />
     <div id="answer"></div>
 <img id="image" src="img/3blooms_img.jpg" width="835" height="661" alt="sample of Canvas page with text and a graphic" />

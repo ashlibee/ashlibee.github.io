@@ -8,12 +8,12 @@
 <script>
 $( function(){
 $("#5text").mouseenter( function(){
-$("#5headers").css("display","inline");
+$("#headers").css("display","inline");
 	$("#5text").css("display","none");
 	$("#answer").html("<p style='color:green'>✅ <i>Notice how the headers create visual sections.</i></p>");
-	$("#5headers").mouseleave( function(){
+	$("#headers").mouseleave( function(){
 $("#5text").css("display","inline");
-$("#5headers").css("display","none");
+$("#headers").css("display","none");
 $("#answer").html("");
 		});
 
@@ -39,7 +39,7 @@ $("#answer").html("");
 <p>Adding section headers is a simple way to break up text and chunk sections. The image below does not include headers. Hover over or tap it to see the difference when section headers are added.</p>
 <img id="5text" src="img/5text.jpg" width="539" height="1006" alt="sample page with no section headers"   />
     <div id="answer"></div>
-<img id="5headers" src="img/5headers.jpg" width="519" height="1171" alt="sample page with section headers" />
+<img id="headers" src="img/5headers.jpg" width="519" height="1171" alt="sample page with section headers" />
  
         
 	 
